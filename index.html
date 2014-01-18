@@ -57,9 +57,30 @@
 	</div>
       </div>
       <div class="row pitch">
+
 	<div class="span6 video">
-	  Video
+	  <div id="video">
+	    <div onclick="thevid=document.getElementById('player'); thevid.style.display='block'; this.style.display='none'">
+              <img alt="Lockitron_video_blue" src="/assets/lockitron_video_blue-64328be0584ff252eb84b8b3caa50ae4.png" /></div><div id="player" style="display:none">
+              <object width="512" height="385">
+		<param name="movie" value="https://www.youtube.com/v/D1L3o88GKew?autohide=1&showinfo=0&rel=0&autoplay=1">
+            </param>
+            <param name="allowFullScreen" value="true">
+            </param>
+            <param name="allowscriptaccess" value="always">
+            </param>
+            <embed src="https://www.youtube.com/v/D1L3o88GKew?autohide=1&showinfo=0&rel=0&autoplay=1" type="application/x-shockwave-flash" width="512" height="385" allowscriptaccess="always" allowfullscreen="true">
+            </embed>
+              </object>
+	    </div>
+	  </div>
 	</div>
+
+
+
+
+
+
 	<div class="span6">
 	  <div class="thermometer">
 	    Thermometer
